@@ -11,6 +11,37 @@
   </head>
 
   <body>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://kingkalli.de/wp-content/uploads/2019/11/kinoangebote_kinder_aachen.jpg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lists</a>
+              </li>
+              <li class="nav-item dropdown">
+                <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuQBCtu0IKt-As2UWBnqAQZaNr_LjWnM1gGl28-ZBeMWYcxq-ajCDYOgEesOjj1pqaz8g&usqp=CAU" />
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
+                </div>
+              </li>
+              <!--li class="nav-item"-->
+              <!--/li-->
+          </ul>
+        </div>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
